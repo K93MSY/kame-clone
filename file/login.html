@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kame-clone</title>
+</head>
+<style>
+    body{
+        background: #fff;
+    }
+    .top_img{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 82px;
+        margin: auto;
+    }
+    #center{
+        position: absolute;
+        top: 82px;
+        height: 175px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    #login_contents{
+        position: absolute;
+        top: 0;
+        height: 125px;
+        width: 100%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    #login_contents h2{
+        position: absolute;
+        background-color: #ffcc00;
+        padding: 1px 1px 1px 1px;
+        text-align: center;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    #login_forms{
+        margin-top: 35px;
+        border-left: 3px solid #ffcc00;
+        border-bottom: 3px solid #ffcc00;
+        border-right: 3px solid #ffcc00;
+        padding: 8px;
+    }
+    table{
+        border: 1px blue solid;
+        border-collapse: collapse;
+    }
+    input [type=text]{
+        width: 130px;
+    }
+    td {
+    text-align: right;
+    border: 1px blue solid;
+    }
+    #logbtn{
+        height: 40px;
+        width: 140px;
+        border: none;
+        background-color: #ffcc00;
+        border-radius: 5px;
+        color: #fff;
+    }
+</style>
+<body>
+    <div id="top">
+        <img src="" class="top_img">
+    </div>
+    <div id="center">
+        <div id="login_contents">
+            <h2>Please LOGIN！</h2>
+        </div>
+        <div id="login_forms">
+            <form>
+                <table align="center">
+                    <tbody>
+                        <tr>
+                            <td>
+                                ユーザーID：
+                            </td>
+                            <td>
+                                <input name="useridbox" class="useridbox" type="text">
+                            </td>
+                            <td rowspan="3" style="width: 165px">
+                                <input type="submit" name="logbtn" id="logbtn" tabindex="-1" value="Login">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                パスワード：
+                            </td>
+                            <td>
+                                <input name="password" class="password" type="password">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+        <div align="center">
+            <a href="http://kame.gifu-nct.ac.jp/ec/top/login.aspx">ほんけ</a>　
+            <a href="https://lang-8.com/">Lang-8（ランゲート）</a><br>
+            <a href="http://kame.gifu-nct.ac.jp/ec/bunpo/kousiki.pdf">文法公式集</a>　
+            <a href="http://kame.gifu-nct.ac.jp/ec/top/hatuon.pdf">発音記号表</a>
+        </div>
+        <hr>
+        <hr>
+    </div>
+</body>
+</html>

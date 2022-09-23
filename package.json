@@ -1,0 +1,21 @@
+{
+  "name": "kame-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K93MSY/kame-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/K93MSY/kame-clone/issues"
+  },
+  "homepage": "https://github.com/K93MSY/kame-clone#readme"
+}
